@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-14 14:41:28 by Eclipse SUMO dfrouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value=".\teszt_sacramento2.net.xml"/>
+        <detector-files value=".\detectorsKiserlet.det.xml"/>
+        <measure-files value=".\flow_file.csv"/>
+    </input>
+
+    <output>
+        <routes-output value="routes.rou.xml"/>
+        <routes-for-all value="true"/>
+        <detectors-poi-output value="detector_poi.xml"/>
+        <emitters-output value="vehicles.rou.xml"/>
+    </output>
+
+    <processing>
+        <keep-unfinished-routes value="true"/>
+        <keep-longer-routes value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <vType id="DEFAULT_VEHTYPE" speedFactor="2.0"/>
+    <routeDistribution id="316827">
+        <route refId="972495037_to_-10518543#3" probability="1.00"/>
+    </routeDistribution>
+    <vehicle id="316827.0" depart="0.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.1" depart="0.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.2" depart="0.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.3" depart="1.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.4" depart="1.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.5" depart="2.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.6" depart="2.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.7" depart="3.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.8" depart="3.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.9" depart="3.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.10" depart="4.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.11" depart="4.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.12" depart="5.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.13" depart="5.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.14" depart="6.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.15" depart="6.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.16" depart="6.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.17" depart="7.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.18" depart="7.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.19" depart="8.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.20" depart="8.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.21" depart="9.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.22" depart="9.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.23" depart="9.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.24" depart="10.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.25" depart="10.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.26" depart="11.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.27" depart="11.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.28" depart="12.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.29" depart="12.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.30" depart="12.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.31" depart="13.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.32" depart="13.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.33" depart="14.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.34" depart="14.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.35" depart="15.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.36" depart="15.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.37" depart="15.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.38" depart="16.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.39" depart="16.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.40" depart="17.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.41" depart="17.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.42" depart="18.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.43" depart="18.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.44" depart="18.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.45" depart="19.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.46" depart="19.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.47" depart="20.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.48" depart="20.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.49" depart="21.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.50" depart="21.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.51" depart="21.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.52" depart="22.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.53" depart="22.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.54" depart="23.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.55" depart="23.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.56" depart="24.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.57" depart="24.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.58" depart="24.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.59" depart="25.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.60" depart="25.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.61" depart="26.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.62" depart="26.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.63" depart="27.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.64" depart="27.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.65" depart="27.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.66" depart="28.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.67" depart="28.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.68" depart="29.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.69" depart="29.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.70" depart="30.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.71" depart="30.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.72" depart="30.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.73" depart="31.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.74" depart="31.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.75" depart="32.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.76" depart="32.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.77" depart="33.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.78" depart="33.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.79" depart="33.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.80" depart="34.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.81" depart="34.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.82" depart="35.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.83" depart="35.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.84" depart="36.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.85" depart="36.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.86" depart="36.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.87" depart="37.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.88" depart="37.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.89" depart="38.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.90" depart="38.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.91" depart="39.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.92" depart="39.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.93" depart="39.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.94" depart="40.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.95" depart="40.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.96" depart="41.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.97" depart="41.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.98" depart="42.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.99" depart="42.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.100" depart="42.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.101" depart="43.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.102" depart="43.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.103" depart="44.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.104" depart="44.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.105" depart="45.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.106" depart="45.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.107" depart="45.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.108" depart="46.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.109" depart="46.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.110" depart="47.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.111" depart="47.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.112" depart="48.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.113" depart="48.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.114" depart="48.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.115" depart="49.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.116" depart="49.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.117" depart="50.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.118" depart="50.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.119" depart="51.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.120" depart="51.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.121" depart="51.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.122" depart="52.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.123" depart="52.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.124" depart="53.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.125" depart="53.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.126" depart="54.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.127" depart="54.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.128" depart="54.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.129" depart="55.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.130" depart="55.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.131" depart="56.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.132" depart="56.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.133" depart="57.00" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.134" depart="57.43" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.135" depart="57.86" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.136" depart="58.29" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.137" depart="58.71" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.138" depart="59.14" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+    <vehicle id="316827.139" depart="59.57" departLane="0" departPos="531.07" departSpeed="29.06" route="972495037_to_-10518543#3"/>
+</additional>

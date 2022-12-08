@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-25 13:55:21 by Eclipse SUMO GUI Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\teszt_sacramento2.net.xml"/>
+        <additional-files value="D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\detector_poi.xml,D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\routes.rou.xml,D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\vehicles.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\tripinfoWithoutDistributedControl2.xml"/>
+        <collision-output value="D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\collisionWithoutDistributedControl2.xml"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="D:\4.ev\Szakdolgozat\Dokumentumok\Vegleges%20modell\UndistributedSimulation\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+</collisions>

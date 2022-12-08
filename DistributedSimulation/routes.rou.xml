@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-14 14:41:28 by Eclipse SUMO dfrouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value=".\teszt_sacramento2.net.xml"/>
+        <detector-files value=".\detectorsKiserlet.det.xml"/>
+        <measure-files value=".\flow_file.csv"/>
+    </input>
+
+    <output>
+        <routes-output value="routes.rou.xml"/>
+        <routes-for-all value="true"/>
+        <detectors-poi-output value="detector_poi.xml"/>
+        <emitters-output value="vehicles.rou.xml"/>
+    </output>
+
+    <processing>
+        <keep-unfinished-routes value="true"/>
+        <keep-longer-routes value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <route id="972495037_to_-10518543#3" edges="972495037 183589003-AddedOnRampEdge 183589003 25304556-AddedOnRampEdge 25304556 976942284 976942284-AddedOffRampEdge 255983734 1022309890#0 -226217755#1 -10518543#3"/>
+    <route id="972495037_to_278458252#0" edges="972495037 183589003-AddedOnRampEdge 183589003 25304556-AddedOnRampEdge 25304556 976942284 976942284-AddedOffRampEdge 255983734 1022309890#0 278458254#0 542552495 540651098#0 540651098#2 278458252#0"/>
+
+</routes>

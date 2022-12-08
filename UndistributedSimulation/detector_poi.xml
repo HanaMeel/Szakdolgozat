@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-14 14:41:28 by Eclipse SUMO dfrouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/dfrouterConfiguration.xsd">
+
+    <input>
+        <net-file value=".\teszt_sacramento2.net.xml"/>
+        <detector-files value=".\detectorsKiserlet.det.xml"/>
+        <measure-files value=".\flow_file.csv"/>
+    </input>
+
+    <output>
+        <routes-output value="routes.rou.xml"/>
+        <routes-for-all value="true"/>
+        <detectors-poi-output value="detector_poi.xml"/>
+        <emitters-output value="vehicles.rou.xml"/>
+    </output>
+
+    <processing>
+        <keep-unfinished-routes value="true"/>
+        <keep-longer-routes value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poi id="316827" type="source_detector_position" color="green" lane="972495037_0" pos="531.07"/>
+    <poi id="3044104" type="sink_detector_position" color="red" lane="278458252#0_0" pos="133.44"/>
+</additional>
